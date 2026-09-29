@@ -1,7 +1,7 @@
 /*General*/
 
 body{
-  background-color: rgb(213, 230, 238);
+  background-color: rgb(226, 244, 252);
   margin:0%;
   padding:0%;
 }
@@ -34,28 +34,54 @@ p {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+li{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr {
+display: block;
+height: 5px;
+color:rgb(49, 91, 128);
+border:none;
+background-color: rgb(49,91,128);
+width: 500px;
+}
+
+
+
 .simple_p{
   padding: 40px;
   margin: 50px;
-  background-color: rgb(117, 143, 166);
+  background-color: rgb(176, 207, 233);
   color: black;
   text-decoration: none;
 }
 
 .bottom_strip{
-  margin: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 50px;
   padding:50px;
-  background-color: rgb(66, 91, 113);
+  background-color: rgb(49, 91, 128);
   text-align: center;
   color: white;
 
 }
 
+.small_details{
+  font-size: 10px;
+}
+
+
+
+
+
 
 /*Navigation*/
 
 nav {
-  background-color: rgb(66, 91, 113);
+  background-color: rgb(49, 91, 128);
 }
 
 nav ul{
